@@ -312,6 +312,11 @@ nav h1 a {
   #restaurants-list li {
     margin: 15px 0 0 8px;
   }
+
+  /* 无效 */
+  #restaurant-container {
+    /* width: 10%; */
+  }
 }
 
 /* 首页适配中等屏幕， 例如iPad */
