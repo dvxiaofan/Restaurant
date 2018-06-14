@@ -205,31 +205,27 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
-  /* position: fixed; */
-  top: 0;
   width: 100%;
   z-index: 1000;
 }
 
 .inside #maincontent {
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: calc(100% - 199px);
-  position: absolute;
-  right: 0;
-  top: 131px;
-  width: 50%;
+  order: 1;
 }
 .inside #map {
   background-color: #ccc;
-  height: 100%;
-  width: 100%;
 }
+.inside #re-wrapper {
+  flex: 1;
+  align-self: stretch;
+}
+
 .inside #footer {
-  bottom: 0;
-  position: absolute;
   width: calc(100% - 50px);
 }
 #restaurant-name {
@@ -263,7 +259,7 @@ nav h1 a {
 }
 #restaurant-container, #reviews-container {
   padding: 0 25px 0;
-  width: 50%;
+  width: 100%;
 }
 #reviews-container {
   padding: 20px 25px 40px;
