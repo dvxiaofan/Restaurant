@@ -213,26 +213,15 @@ nav h1 a {
   flex-wrap: wrap;
 }
 .inside #map-container {
-<<<<<<< HEAD
-  background: blue none repeat scroll 0 0;
-  order: 1;
-}
-.inside #map {
-  background-color: #ccc;
-=======
   order: 1;
   align-self: stretch;
->>>>>>> dev
 }
 .inside #re-wrapper {
   flex: 1;
   align-self: stretch;
-<<<<<<< HEAD
-=======
 
   display: flex;
   flex-direction: column;
->>>>>>> dev
 }
 
 .inside #footer {
@@ -268,15 +257,7 @@ nav h1 a {
 	width: 100%;
 }
 #restaurant-container, #reviews-container {
-<<<<<<< HEAD
-  padding: 0 25px 0;
-  width: 100%;
-}
-#reviews-container {
-  padding: 20px 25px 40px;
-=======
   padding: 20px 25px 0;
->>>>>>> dev
 }
 #reviews-container h2 {
   color: #f58500;
@@ -323,11 +304,6 @@ nav h1 a {
 
   #restaurants-list li {
     margin: 15px 0 0 8px;
-  }
-
-  /* 无效 */
-  #restaurant-container {
-    /* width: 10%; */
   }
 }
 
